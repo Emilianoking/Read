@@ -13,9 +13,9 @@ export default function Contact() {
 
   // Función para manejar el envío del formulario
   const handleSubmit = (e) => {
-    e.preventDefault(); // Evita que la página se recargue
+    e.preventDefault(); 
 
-    // Aquí puedes hacer algo con los datos, como enviarlos a una API
+    // Tratamiendo de Datos
     console.log({
       nombre,
       apellido,
